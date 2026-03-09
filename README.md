@@ -3,6 +3,7 @@
 **1. Identificação de Bugs**
 
 **Bug 01:** Cadastro e Login com campos obrigatórios vazios
+
 Título: Permissão de criação de conta e autenticação sem preenchimento de dados.
 
 Descrição: O sistema não valida se os campos estão vazios, permitindo que o usuário crie uma conta nula e acesse o sistema sem e-mail.
@@ -28,6 +29,7 @@ Prioridade: Alta
 --
 
 **Bug 02:** Exposição de credenciais no Console do navegador
+
 Título: Exposição de senha em texto claro nos logs do Console (DevTools).
 
 Descrição: Ao submeter os formulários de login ou cadastro, o e-mail e a senha digitada é impressa abertamente no console do desenvolvedor.
@@ -54,6 +56,7 @@ Prioridade: Alta
 --
 
 **Bug 03:** Falha na validação de requisitos de senha
+
 Título: Aceitação de senhas que não cumprem os requisitos de segurança informados.
 
 Descrição: O sistema informa que a senha precisa de 8 caracteres e 1 especial, mas permite o cadastro com apenas o número "1".
@@ -79,6 +82,7 @@ Prioridade: Alta
 --
 
 **Bug 04:** Estouro de Layout
+
 Título: Campos de input extrapolando o limite lateral do modal.
 
 Descrição: Na tela de cadastro, os campos "Telefone" e "Confirmar Senha" não respeitam as margens do container principal, ultrapassando visualmente a borda do modal branco. E os campos "Nome" e "Senha" estão atras dos campos "Telefone" e "Confirmar Senha".
@@ -101,6 +105,7 @@ Prioridade: Média
 --
 
 **Bug 05:** Falha de Responsividade (Mobile)
+
 Título: Ausência de responsividade nas telas de Login e Cadastro.
 
 Descrição: O sistema não possui adaptação para dispositivos móveis. 
@@ -124,6 +129,7 @@ Prioridade: Alta
 --
 
 **2. Respostas do Teste**
+
 Quais 2 bugs você corrigiria primeiro e por quê?
 
 **Bug 01:** Cadastro e Login com campos obrigatórios vazios: Por ser uma falha funcional crítica que permite a entrada de dados nulos e compromete todo o funcionamento do sistema.
@@ -142,6 +148,7 @@ Proteção de Dados no Console: É necessário aplicar uma "máscara" ou bloquei
 -- 
 
 4. Sugestões de Ajustes Rápidos
+
 Além das correções críticas, listei alguns ajustes que podem melhorar muito a experiência de quem usa o sistema:
 
 Padronização de Termos: Atualmente, o sistema usa as palavras "Plataforma" na tela de cadastro e "Sistema" na tela de login. A sugestão é escolher apenas um nome e usar em todas as mensagens para não confundir o usuário.
