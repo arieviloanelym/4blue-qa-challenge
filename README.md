@@ -6,19 +6,24 @@
 
 Título: Permissão de criação de conta e autenticação sem preenchimento de dados.
 
-Descrição: O sistema não valida se os campos estão vazios, permitindo que o usuário crie uma conta nula e acesse o sistema sem e-mail.
+Descrição: O sistema não valida se os campos estão vazios, permitindo que o usuário crie uma conta nula e acesse o sistema sem e-mail e senha.
 
 Passos para reproduzir:
 
 1 - Acessar o link https://qa-play-sim.lovable.app/ 
+
 2 - Clicar em "Criar conta" 
-3 - Clicar no botão "Criar conta" sem preencher nenhum campo.
-4 - Voltar para a tela de Login.
-5 - Clicar em "Entrar" sem preencher nenhum campo.
-(gif)
+
+3 - Clicar no botão "Criar conta" sem preencher nenhum campo
+
+4 - Voltar para a tela de Login
+
+5 - Clicar em "Entrar" sem preencher nenhum campo
+
+(Gif)
 ![chrome_3KyeU5FPan](https://github.com/user-attachments/assets/b19ad155-53b7-4ccc-848d-5fcdc45b9f6c)
 
-Resultado atual: O sistema exibe mensagem de sucesso e permite o acesso à "Tela de Sucesso".
+Resultado atual: O sistema exibe mensagem de sucesso e permite o acesso.
 
 Resultado esperado: O sistema deve impedir o avanço e exibir a mensagem "Campo obrigatório" em cada campo vazio.
 
@@ -36,8 +41,9 @@ Descrição: Ao submeter os formulários de login ou cadastro, o e-mail e a senh
 
 Passos para reproduzir:
 
-1 - Abrir o Inspecionar do navegador (F12) e clicar na aba "Console".
-2 - Realizar uma tentativa de cadastro ou login preenchendo o campo de e-mail e senha.
+1 - Abrir o Inspecionar do navegador (F12) e clicar na aba "Console"
+
+2 - Realizar uma tentativa de cadastro ou login preenchendo o campo de e-mail e senha
 
 Cadastro
 <img width="1920" height="912" alt="image" src="https://github.com/user-attachments/assets/926dea74-0088-4aa0-929c-d32e91fb95e6" />
@@ -64,9 +70,13 @@ Descrição: O sistema informa que a senha precisa de 8 caracteres e 1 especial,
 Passos para reproduzir:
 
 1 - Acessar o link https://qa-play-sim.lovable.app/ 
-2 - Clicar em "Criar conta" 
-3 - No campo senha, digitar apenas "1".
-4 - Clicar em "Criar conta".
+
+2 - Clicar em "Criar conta"
+
+3 - No campo senha, digitar apenas "1"
+
+4 - Clicar em "Criar conta"
+
 (Gif)
 ![chrome_bAiXAz1G9D](https://github.com/user-attachments/assets/7be5595f-f89d-4d58-a4e4-002aa388c2ee)
 
@@ -90,8 +100,11 @@ Descrição: Na tela de cadastro, os campos "Telefone" e "Confirmar Senha" não 
 Passos para reproduzir:
 
 1 - Acessar o link https://qa-play-sim.lovable.app/ 
+
 2 - Clicar em "Criar conta" 
-3 - Observar o alinhamento dos campos no lado direito do formulário.
+
+3 - Observar o alinhamento dos campos no lado direito do formulário
+
 <img width="1920" height="912" alt="image" src="https://github.com/user-attachments/assets/f1abae78-9197-41d4-bfca-ec3e32a7f4b7" />
 
 Resultado atual: Os inputs de "Telefone" e "Confirmar Senha" estão maiores que o modal, vazando para fora da área branca e os campos de "Nome" e "Senha" estão atrás dos campos "Telefone" e "Confirmar Senha".
@@ -113,8 +126,11 @@ Descrição: O sistema não possui adaptação para dispositivos móveis.
 Passos para reproduzir:
 
 1 - Acessar o link https://qa-play-sim.lovable.app/ 
+
 2 - Clicar em "Criar conta" 
+
 3 - Ativar o DevTools ou acessar o link via mobile
+
 (gif)
 ![chrome_FCtPxjEgsC](https://github.com/user-attachments/assets/fff30afd-72eb-4ff7-94e4-c70f45c2a4e0)
 
