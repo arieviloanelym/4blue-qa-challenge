@@ -80,7 +80,6 @@ Passos para reproduzir:
 (Gif)
 ![chrome_bAiXAz1G9D](https://github.com/user-attachments/assets/7be5595f-f89d-4d58-a4e4-002aa388c2ee)
 
-
 Resultado atual: A conta é criada com sucesso mesmo com senha insegura.
 
 Resultado esperado: O sistema deve validar a senha e exibir erro caso os requisitos não sejam atingidos.
@@ -131,7 +130,7 @@ Passos para reproduzir:
 
 3 - Ativar o DevTools ou acessar o link via mobile
 
-(gif)
+(Gif)
 ![chrome_FCtPxjEgsC](https://github.com/user-attachments/assets/fff30afd-72eb-4ff7-94e4-c70f45c2a4e0)
 
 Resultado atual: Impossibilidade de visualizar as telas corretamente.
@@ -156,6 +155,7 @@ Quais 2 bugs você corrigiria primeiro e por quê?
 
 **Bug 01**
 Trava no Botão de Cadastro: Para evitar que o usuário envie o formulário vazio, o botão "Criar conta" deve começar desabilitado. Ele só deve ser liberado para clicar quando todos os campos marcados com o sinal de obrigatório (!) estiverem preenchidos.
+
 Mensagens de Alerta: Além de desabilitar o botão, o sistema deve mostrar um aviso visual (como uma frase em vermelho ou o símbolo de exclamação) logo abaixo do campo que o usuário esqueceu de preencher, para ele saber exatamente o que falta fazer.
 
 **Bug 02**
@@ -163,14 +163,13 @@ Proteção de Dados no Console: É necessário aplicar uma "máscara" ou bloquei
 
 -- 
 
-4. Sugestões de Ajustes Rápidos
+**4. Sugestões de Ajustes Rápidos**
 
 Além das correções críticas, listei alguns ajustes que podem melhorar muito a experiência de quem usa o sistema:
 
 Padronização de Termos: Atualmente, o sistema usa as palavras "Plataforma" na tela de cadastro e "Sistema" na tela de login. A sugestão é escolher apenas um nome e usar em todas as mensagens para não confundir o usuário.
 
-Correção do Botão de Sucesso: Assim que o usuário termina o cadastro, o botão aparece como "Sair da conta". O ideal é trocar o texto para "Acessar Sistema" ou "Ir para o Início", pois o usuário acabou de entrar e não quer sair.
+Correção do Botão de Sucesso: Assim que o usuário termina o cadastro, o botão aparece como "Sair da conta". O ideal é trocar o texto para "Acessar Sistema" ou "Ir para o Início".
 
-Mensagem de Erro no Login: Quando o login falha, em vez de mostrar "Conta não encontrada", mudar para "E-mail ou senha incorretos". Isso é mais padrão de mercado e evita dar informações demais para possíveis invasores.
+Mensagem de Erro no Login: Quando o login falha, em vez de mostrar "Conta não encontrada", mudar para "E-mail ou Senha incorretos". 
 
-Ajuste de Capitalização: Revisar os textos para garantir que todos comecem com letra maiúscula e sigam o mesmo padrão visual, deixando o site com um aspecto mais profissional.
