@@ -164,7 +164,7 @@ Proteção de Dados no Console: É necessário aplicar uma "máscara" ou bloquei
 
 -- 
 
-**4. Sugestões de Ajustes Rápidos**
+**3. Sugestões de Ajustes Rápidos**
 
 Além das correções críticas, listei alguns ajustes que podem melhorar muito a experiência de quem usa o sistema:
 
