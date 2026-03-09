@@ -80,7 +80,7 @@ Passos para reproduzir:
 (Gif)
 ![chrome_bAiXAz1G9D](https://github.com/user-attachments/assets/7be5595f-f89d-4d58-a4e4-002aa388c2ee)
 
-Resultado atual: A conta é criada com sucesso mesmo com senha insegura.
+Resultado atual: A conta é criada com sucesso mesmo com senha incorreta.
 
 Resultado esperado: O sistema deve validar a senha e exibir erro caso os requisitos não sejam atingidos.
 
@@ -131,6 +131,7 @@ Passos para reproduzir:
 3 - Ativar o DevTools ou acessar o link via mobile
 
 (Gif)
+
 ![chrome_FCtPxjEgsC](https://github.com/user-attachments/assets/fff30afd-72eb-4ff7-94e4-c70f45c2a4e0)
 
 Resultado atual: Impossibilidade de visualizar as telas corretamente.
